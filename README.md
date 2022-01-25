@@ -33,4 +33,13 @@ Fiz o mapeamento dos drives do Chrome e Firefox, e por default a chamada está s
 
 Os drivers encontram-se na Pasta target/drivers dentro do projeto.
 
+Os cenários que obtiveram erros nos resultados dos testes, atendem aos critérios de aceite, ou seja, não atendem as regras de negócio.
+Segue abaixo os cenários com erros no resultado:  
+
+```sh
+-Não deve cadastrar um contato com telefone contendo mais que 12 caracteres
+-Deve cadastrar um contato com nome com no minimo 3 caracteres
+-Validar campo telefone aceitando no mínino 8 caracteres
+```
+
 Para executar o Projeto, utilizar a IDE Eclipse ou Intellij, fazendo o import do projeto Maven.
