@@ -1,0 +1,603 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-25T02:54:22.925Z",
+        "line": 8,
+        "name": "Deve cadastrar um contato com sucesso",
+        "description": "",
+        "id": "cadastro-de-contatos;deve-cadastrar-um-contato-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1961378200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que acesso a aplicação",
+            "match": {
+              "location": "InserirContatosSteps.queAcessoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 55016300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "InserirContatosSteps.selecionoAdicionar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 105254800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "informo o nome \"Witna Sales\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Witna Sales\"",
+                  "offset": 15
+                }
+              ],
+              "location": "InserirContatosSteps.informoONome(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 152787800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o telefone \"81 9999-9999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"81 9999-9999\"",
+                  "offset": 11
+                }
+              ],
+              "location": "InserirContatosSteps.oTelefone(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 49810100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "seleciono Adicionar Contato",
+            "match": {
+              "location": "InserirContatosSteps.selecionoAdicionarContato()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 130300700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o contato é salvo com sucesso",
+            "match": {
+              "location": "InserirContatosSteps.oContatoÉSalvoComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-25T02:54:25.428Z",
+        "line": 16,
+        "name": "Não deve cadastrar um contato com nome já existente",
+        "description": "",
+        "id": "cadastro-de-contatos;não-deve-cadastrar-um-contato-com-nome-já-existente",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 65383600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "que acesso a aplicação",
+            "match": {
+              "location": "InserirContatosSteps.queAcessoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 43491600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "InserirContatosSteps.selecionoAdicionar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 94297300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "informo o nome \"Witna Sales\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Witna Sales\"",
+                  "offset": 15
+                }
+              ],
+              "location": "InserirContatosSteps.informoONome(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 140262800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "o telefone \"81 9999-9999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"81 9999-9999\"",
+                  "offset": 11
+                }
+              ],
+              "location": "InserirContatosSteps.oTelefone(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 46708700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "seleciono Adicionar Contato",
+            "match": {
+              "location": "InserirContatosSteps.selecionoAdicionarContato()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 29370200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "sou notificado que já existe um contato com esse nome",
+            "match": {
+              "location": "InserirContatosSteps.souNotificadoQueJáExisteUmContatoComEsseNome()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-25T02:54:25.851Z",
+        "line": 24,
+        "name": "Não deve cadastrar um contato com telefone contendo mais que 12 caracteres",
+        "description": "",
+        "id": "cadastro-de-contatos;não-deve-cadastrar-um-contato-com-telefone-contendo-mais-que-12-caracteres",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 57320700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "que acesso a aplicação",
+            "match": {
+              "location": "InserirContatosSteps.queAcessoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 42103200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "InserirContatosSteps.selecionoAdicionar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 89050200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "informo o nome Teste \"Teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste\"",
+                  "offset": 21
+                }
+              ],
+              "location": "InserirContatosSteps.informoONomeTeste(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 113737900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "o telefone Teste \"81 9999999999999999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"81 9999999999999999\"",
+                  "offset": 17
+                }
+              ],
+              "location": "InserirContatosSteps.oTelefoneTeste(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 47666300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "seleciono Adicionar Contato",
+            "match": {
+              "location": "InserirContatosSteps.selecionoAdicionarContato()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.\u003d\u0027Telefone (máx. 12 caracter).\u0027]\"}\n  (Session info: chrome\u003d97.0.4692.71)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027MSDGTIC0025\u0027, ip: \u0027192.168.20.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\WITNA~1.SAL\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e50f89c9d57afd6736fde388a526640a\n*** Element info: {Using\u003dxpath, value\u003d//span[.\u003d\u0027Telefone (máx. 12 caracter).\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat runners.BasePage.getText(BasePage.java:26)\r\n\tat page.InserirContatosPage.getMsgErrorTelMaxCaracter(InserirContatosPage.java:56)\r\n\tat steps.InserirContatosSteps.souNotificadoQueOTelefoneDeveConterNoMáximoCaracteres(InserirContatosSteps.java:62)\r\n\tat ✽.sou notificado que o telefone deve conter no máximo 12 caracteres(file:src/test/resources/features/inserir_contatos.feature:30)\r\n",
+              "duration": 32442900,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "sou notificado que o telefone deve conter no máximo 12 caracteres",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 52
+                }
+              ],
+              "location": "InserirContatosSteps.souNotificadoQueOTelefoneDeveConterNoMáximoCaracteres(Integer)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-25T02:54:26.245Z",
+        "line": 32,
+        "name": "Deve cadastrar um contato com nome com no minimo 3 caracteres",
+        "description": "",
+        "id": "cadastro-de-contatos;deve-cadastrar-um-contato-com-nome-com-no-minimo-3-caracteres",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 54192900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "que acesso a aplicação",
+            "match": {
+              "location": "InserirContatosSteps.queAcessoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 43285000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "InserirContatosSteps.selecionoAdicionar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 88996000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "informo o nome T \"T\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"T\"",
+                  "offset": 17
+                }
+              ],
+              "location": "InserirContatosSteps.informoONomeT(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 105711500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "o telefone \"81 9999-9999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"81 9999-9999\"",
+                  "offset": 11
+                }
+              ],
+              "location": "InserirContatosSteps.oTelefone(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 48966300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "seleciono Adicionar Contato",
+            "match": {
+              "location": "InserirContatosSteps.selecionoAdicionarContato()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.\u003d\u0027Nome (min. 3 caracter).\u0027]\"}\n  (Session info: chrome\u003d97.0.4692.71)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027MSDGTIC0025\u0027, ip: \u0027192.168.20.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\WITNA~1.SAL\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e50f89c9d57afd6736fde388a526640a\n*** Element info: {Using\u003dxpath, value\u003d//span[.\u003d\u0027Nome (min. 3 caracter).\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat runners.BasePage.getText(BasePage.java:26)\r\n\tat page.InserirContatosPage.getMsgErrorNomeMinCaracter(InserirContatosPage.java:60)\r\n\tat steps.InserirContatosSteps.souNotificadoQueONomeDeveConterNoMínimoCaracteres(InserirContatosSteps.java:72)\r\n\tat ✽.sou notificado que o nome deve conter no mínimo 3 caracteres(file:src/test/resources/features/inserir_contatos.feature:38)\r\n",
+              "duration": 19538900,
+              "status": "failed"
+            },
+            "line": 38,
+            "name": "sou notificado que o nome deve conter no mínimo 3 caracteres",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 48
+                }
+              ],
+              "location": "InserirContatosSteps.souNotificadoQueONomeDeveConterNoMínimoCaracteres(Integer)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-25T02:54:26.612Z",
+        "line": 40,
+        "name": "Validar campo telefone aceitando no mínino 8 caracteres",
+        "description": "",
+        "id": "cadastro-de-contatos;validar-campo-telefone-aceitando-no-mínino-8-caracteres",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 58461500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "que acesso a aplicação",
+            "match": {
+              "location": "InserirContatosSteps.queAcessoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 39622900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "InserirContatosSteps.selecionoAdicionar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 100307900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "informo o nome Teste de Contato \"Teste de contato\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste de contato\"",
+                  "offset": 32
+                }
+              ],
+              "location": "InserirContatosSteps.informoONomeTesteDeContato(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 98569700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "o telefone Teste de Contato \"81\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"81\"",
+                  "offset": 28
+                }
+              ],
+              "location": "InserirContatosSteps.oTelefoneTesteDeContato(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 48566800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "seleciono Adicionar Contato",
+            "match": {
+              "location": "InserirContatosSteps.selecionoAdicionarContato()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.\u003d\u0027telefone (min. 8 caracter).\u0027]\"}\n  (Session info: chrome\u003d97.0.4692.71)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027MSDGTIC0025\u0027, ip: \u0027192.168.20.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\WITNA~1.SAL\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e50f89c9d57afd6736fde388a526640a\n*** Element info: {Using\u003dxpath, value\u003d//span[.\u003d\u0027telefone (min. 8 caracter).\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat runners.BasePage.getText(BasePage.java:26)\r\n\tat page.InserirContatosPage.getMsgErrorTelMinCaracter(InserirContatosPage.java:64)\r\n\tat steps.InserirContatosSteps.souNotificadoQueOTelefoneDeveConterNoMínimoCaracteres(InserirContatosSteps.java:87)\r\n\tat ✽.sou notificado que o telefone deve conter no mínimo 8 caracteres(file:src/test/resources/features/inserir_contatos.feature:46)\r\n",
+              "duration": 19719300,
+              "status": "failed"
+            },
+            "line": 46,
+            "name": "sou notificado que o telefone deve conter no mínimo 8 caracteres",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 52
+                }
+              ],
+              "location": "InserirContatosSteps.souNotificadoQueOTelefoneDeveConterNoMínimoCaracteres(Integer)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-25T02:54:26.985Z",
+        "line": 48,
+        "name": "Deve listar contatos com sucesso",
+        "description": "",
+        "id": "cadastro-de-contatos;deve-listar-contatos-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 53731600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "que acesso a aplicação",
+            "match": {
+              "location": "InserirContatosSteps.queAcessoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 27090000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "adiciono um contato válido",
+            "match": {
+              "location": "InserirContatosSteps.adicionoUmContatoVálido()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 24018500,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "visualizo a página de listagem dos contatos",
+            "match": {
+              "location": "InserirContatosSteps.visualizoAPáginaDeListagemDosContatos()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-25T02:54:27.093Z",
+        "line": 53,
+        "name": "Deve remover um contato com sucesso",
+        "description": "",
+        "id": "cadastro-de-contatos;deve-remover-um-contato-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 58753900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "que acesso a aplicação",
+            "match": {
+              "location": "InserirContatosSteps.queAcessoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 43936200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "seleciono Apagar",
+            "match": {
+              "location": "InserirContatosSteps.selecionoApagar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 490900,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "o contato é excluído com sucesso",
+            "match": {
+              "location": "InserirContatosSteps.oContatoÉExcluídoComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de contatos",
+    "description": "Como um usuário\nGostaria de cadastrar contatos\nPara que fique cadastrado",
+    "id": "cadastro-de-contatos",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/inserir_contatos.feature",
+    "tags": []
+  }
+]
