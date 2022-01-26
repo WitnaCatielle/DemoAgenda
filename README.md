@@ -38,8 +38,8 @@ Segue abaixo os cenários com erros no resultado:
 
 ```sh
 -Não deve cadastrar um contato com telefone contendo mais que 12 caracteres
--Deve cadastrar um contato com nome com no minimo 3 caracteres
--Validar campo telefone aceitando no mínino 8 caracteres
+-Deve cadastrar um contato com nome com no mínimo 3 caracteres
+-Validar campo telefone aceitando no mínimo 8 caracteres
 ```
 
 Para executar o Projeto, utilizar a IDE Eclipse ou Intellij, fazendo o import do projeto Maven.
